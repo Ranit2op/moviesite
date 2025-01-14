@@ -5,10 +5,12 @@ import { BrowserRouter as Router, Routes , Route} from 'react-router-dom';
 import Header from './movie component/Header/Header';
 
 
-import Movielist from './movie component/Movielist/MovieList';
+ import Movielist from './movie component/Movielist/MovieList';
+
 import Home from './movie component/Page/Home';
 
 import Cinema from './movie component/movie details/Cinema';
+import Footer from './movie component/Footer/Footer';
 
 
 function App() {
@@ -23,7 +25,7 @@ function App() {
   <Route path="movies/:type" element={<Movielist/>}/>
   <Route path ="/*" element={<h1>Error page</h1>}/> 
 </Routes>
-
+<Footer/>
 </Router>
 
     

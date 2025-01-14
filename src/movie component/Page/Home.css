@@ -51,3 +51,30 @@
     text-align: left;
     width: 50%;
 }
+/* Styling for the search box */
+.search-box {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .search-box input {
+    width: 60%;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 25px;
+    outline: none;
+    transition: all 0.3s ease;
+  }
+  
+  .search-box input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  .search-box input::placeholder {
+    color: #aaa;
+    font-style: italic;
+  }
+  
