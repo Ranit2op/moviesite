@@ -23,8 +23,8 @@ const Footer = () => {
                             data-mdb-ripple-init
                             className="btn text-white btn-floating m-1"
                             style={{ backgroundColor: '#55acee' }}
-                            href="#!"
-                            role="https://x.com/RanitJod?t=KHWzIjv-2UBb0bqn00MCww&s=08"
+                            href="https://x.com/RanitJod?t=KHWzIjv-2UBb0bqn00MCww&s=08"
+                            role="button"
                         >
                             <i className="fab fa-twitter"></i>
                         </a>
@@ -33,7 +33,7 @@ const Footer = () => {
                             data-mdb-ripple-init
                             className="btn text-white btn-floating m-1"
                             style={{ backgroundColor: '#dd4b39' }}
-                            href="ranits708@gmail.com"
+                            href=""
                             role="button"
                         >
                             <i className="fab fa-google"></i>
@@ -75,9 +75,9 @@ const Footer = () => {
                     className="text-center p-3"
                     style={{ backgroundColor: 'rgb(168, 165, 165)' }}
                 >
-                    © 2020 Copyright:
-                    <a className="text-body" href="https://mdbootstrap.com/">
-                        MDBootstrap.com
+                    © 2025 Copyright:
+                    <a className="text-body" href="https://myaccount.google.com/u/1/?hl=en_GB&utm_source=OGB&utm_medium=act&gar=WzEyMF0&nlr=1/">
+                       Ranits708@gmail.com
                     </a>
                 </div>
             </footer>
@@ -86,4 +86,5 @@ const Footer = () => {
 };
 
 export default Footer;
+
 
